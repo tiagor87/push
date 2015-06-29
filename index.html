@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="pushApp">
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body ng-controller="Controller as controller">
+  <input type="text" ng-model="controller.deviceToken"></p>
+  <button ng-click="controller.registrar()">Registrar</button>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/ngCordova/dist/ng-cordova.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/servicenotificacaoandroid.js"></script>
+  <script src="js/servicenotificacaoios.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagor87/push.git"
+  },
+  "author": "Tiago e Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagor87/push/issues"
+  },
+  "homepage": "https://github.com/tiagor87/push#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "apn": "^1.7.4"
+  }
+}
